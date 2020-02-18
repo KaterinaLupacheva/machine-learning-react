@@ -6,12 +6,19 @@
     align-items: center;
     justify-content: space-between;
 
+    .slogan-container{
+        padding-left: 1vw;
+    }
+
     .options{
         height: 8vh;
         width: 20vw;
         display: flex;
         flex-direction: row;
         margin-top: 2vh;
+        align-items: center;
+        justify-content: space-between;
+        padding-right: 1vw;
             
             .home-icon{
                 width: 2rem;
@@ -27,6 +34,5 @@
                 width: 2rem;
                 fill: blue;
             }
-        
     }
 }

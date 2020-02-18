@@ -9,7 +9,9 @@ import './header.styles.scss';
 const Header = () => {
     return(
         <div className='header'>
-            <Slogan />
+            <div className='slogan-container'>
+                <Slogan />
+            </div>
             <div className='options'>
                 <Link className='option' to='/'>
                     <HomeIcon className='home-icon'/>
