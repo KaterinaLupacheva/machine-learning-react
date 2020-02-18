@@ -1,0 +1,20 @@
+.header{
+    height: 10vh;
+    width: 100%;
+    background-color: darkblue;
+    display: flex;
+    align-items: center;
+
+    .options{
+        height: 8vh;
+
+        .option{
+            
+
+            img{
+                max-width: 100%;
+                max-height: 100%;
+            }
+        }
+    }
+}
