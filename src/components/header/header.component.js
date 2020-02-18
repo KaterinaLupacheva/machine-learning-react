@@ -1,9 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Slogan from '../slogan/slogan.component';
+import {ReactComponent as HomeIcon} from '../../assets/page1-icons/home-icon.svg';
 import './header.styles.scss';
-
-import homeIcon from '../../assets/page1-icons/home-icon.png';
 
 const Header = () => {
     return(
@@ -11,7 +10,7 @@ const Header = () => {
             <Slogan />
             <div className='options'>
                 <Link className='option' to='/'>
-                    <img src={homeIcon} alt='home-icon' />
+                    <HomeIcon className='home-icon'/>
                 </Link>
             </div>
         </div>
