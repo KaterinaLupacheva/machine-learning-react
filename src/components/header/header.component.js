@@ -16,7 +16,7 @@ const Header = () => {
                 <Link className='option' to='/'>
                     <HomeIcon className='home-icon'/>
                 </Link>
-                <Link className='option' to='/settings'>
+                <Link className='option' to='/'>
                     <GearIcon className='gear-icon' />
                 </Link>
                 <Link className='option' to='/login'>
