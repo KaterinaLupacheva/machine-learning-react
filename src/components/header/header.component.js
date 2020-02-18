@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import Slogan from '../slogan/slogan.component';
 import {ReactComponent as HomeIcon} from '../../assets/page1-icons/home-icon.svg';
 import {ReactComponent as GearIcon} from '../../assets/page1-icons/gear-icon.svg';
+import {ReactComponent as LoginIcon} from '../../assets/page1-icons/login-icon.svg';
 import './header.styles.scss';
 
 const Header = () => {
@@ -13,8 +14,11 @@ const Header = () => {
                 <Link className='option' to='/'>
                     <HomeIcon className='home-icon'/>
                 </Link>
-                <Link className='option' to='/'>
+                <Link className='option' to='/settings'>
                     <GearIcon className='gear-icon' />
+                </Link>
+                <Link className='option' to='/login'>
+                    <LoginIcon className='login-icon' />
                 </Link>
             </div>
         </div>
