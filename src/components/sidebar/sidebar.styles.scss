@@ -6,6 +6,13 @@
   background: #042331;
   transition: all 0.5s ease;
 
+  & ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: left;
+  }
+
   header {
     font-size: 22px;
     color: white;
