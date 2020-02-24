@@ -1,38 +1,38 @@
-.header{
-    height: 10vh;
-    width: 100%;
-    background-color: darkblue;
+.header {
+  height: 10vh;
+  width: 100%;
+  background-color: darkblue;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .slogan-container {
+    padding-left: 1vw;
+  }
+
+  .options {
+    height: 8vh;
+    width: 20vw;
     display: flex;
+    flex-direction: row;
+    margin-top: 2vh;
     align-items: center;
     justify-content: space-between;
+    padding-right: 1vw;
 
-    .slogan-container{
-        padding-left: 1vw;
+    .home-icon {
+      width: 2rem;
+      fill: orange;
     }
 
-    .options{
-        height: 8vh;
-        width: 20vw;
-        display: flex;
-        flex-direction: row;
-        margin-top: 2vh;
-        align-items: center;
-        justify-content: space-between;
-        padding-right: 1vw;
-            
-            .home-icon{
-                width: 2rem;
-                fill: orange;
-            }
-
-            .gear-icon{
-                width: 2.5rem;
-                fill: red;
-            }
-
-            .login-icon{
-                width: 2rem;
-                fill: blue;
-            }
+    .gear-icon {
+      width: 2.5rem;
+      fill: red;
     }
+
+    .login-icon {
+      width: 2rem;
+      fill: blue;
+    }
+  }
 }

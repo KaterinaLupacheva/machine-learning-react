@@ -8,7 +8,7 @@ const Sidebar = () => (
   <div className="sidebar-container">
     <ul>
       {MENU_OPTIONS.map(option => (
-        <SidebarOption icon={option.icon} name={option.name} />
+        <SidebarOption key={option.id} icon={option.icon} name={option.name} />
       ))}
     </ul>
   </div>
