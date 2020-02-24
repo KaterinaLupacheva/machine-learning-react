@@ -1,18 +1,15 @@
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faQrcode } from '@fortawesome/free-solid-svg-icons';
+import SidebarOption from '../sidebar-option/sidebar-option.component';
+import MENU_OPTIONS from './menu-options.data';
 
 import './sidebar.styles.scss';
 
 const Sidebar = () => (
   <div className="sidebar-container">
     <ul>
-      <li>
-        <a href="#">
-          <FontAwesomeIcon icon={faQrcode} />
-          Dashboard
-        </a>
-      </li>
+      {MENU_OPTIONS.map(option => (
+        <SidebarOption icon={option.icon} name={option.name} />
+      ))}
     </ul>
   </div>
 );
