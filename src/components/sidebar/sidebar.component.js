@@ -7,7 +7,7 @@ import './sidebar.styles.scss';
 const Sidebar = () => (
   <>
     <div className="sidebar-container">
-      <header>Nebula CI</header>
+      <header>{'J.A.R.V.I.S'}</header>
       <ul>
         {MENU_OPTIONS.map(option => (
           <SidebarOption key={option.id} icon={option.icon} name={option.name} />
