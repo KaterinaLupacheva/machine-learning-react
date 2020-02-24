@@ -4,11 +4,6 @@ import Sidebar from '../../components/sidebar/sidebar.component';
 
 import './dashboard-page.styles.scss';
 
-const DashboardPage = () => (
-  <div className="dashboard-page">
-    <HamburgerMenuIcon />
-    <Sidebar />
-  </div>
-);
+const DashboardPage = () => <div className="dashboard-page">dashboard</div>;
 
 export default DashboardPage;

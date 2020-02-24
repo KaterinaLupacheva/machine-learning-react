@@ -4,7 +4,7 @@ import MENU_OPTIONS from './menu-options.data';
 
 import './sidebar.styles.scss';
 
-const Sidebar = () => (
+const Sidebar = ({ children }) => (
   <>
     <div className="sidebar-container">
       <header>{'J.A.R.V.I.S'}</header>
@@ -14,7 +14,7 @@ const Sidebar = () => (
         ))}
       </ul>
     </div>
-    <section></section>
+    <section>{children}</section>
   </>
 );
 
