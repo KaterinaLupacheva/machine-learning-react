@@ -6,6 +6,7 @@ import { ReactComponent as Icon5 } from '../../assets/page2-icons/icon5.svg';
 import { ReactComponent as Icon6 } from '../../assets/page2-icons/icon6.svg';
 import { ReactComponent as Icon7 } from '../../assets/page2-icons/icon7.svg';
 import { ReactComponent as Icon8 } from '../../assets/page2-icons/icon8.svg';
+import { ReactComponent as Icon9 } from '../../assets/page2-icons/icon9.svg';
 
 const ML_MENU_OPTIONS = [
   {
@@ -47,6 +48,11 @@ const ML_MENU_OPTIONS = [
     id: 8,
     icon: Icon8,
     name: 'Location Optimization',
+  },
+  {
+    id: 9,
+    icon: Icon9,
+    name: 'Sentiment Analysis',
   },
 ];
 
