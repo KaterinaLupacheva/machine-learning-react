@@ -4,7 +4,7 @@ import './ml-menu-option.styles.scss';
 
 const MlMenuOption = ({ option }) => (
   <div className="ml-menu-option">
-    <option.icon className='option-icon' />
+    <option.icon className="option-icon" />
     <span className="option-name">{option.name}</span>
   </div>
 );

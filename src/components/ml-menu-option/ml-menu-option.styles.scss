@@ -5,6 +5,7 @@
   width: 20vw;
   height: 20vh;
   cursor: pointer;
+  color: white;
   transition: all 0.4s ease;
 
   .option-name {
@@ -14,5 +15,9 @@
 
   &:hover {
     transform: scale(1.2);
- }
+  }
+
+  .option-icon {
+    fill: darkblue;
+  }
 }

@@ -9,10 +9,15 @@
   .menu-item {
     width: 10vw;
     cursor: pointer;
+    transition: all 0.4s ease;
 
     .icon {
       max-width: 100%;
       margin-bottom: 3vh;
+    }
+
+    &:hover {
+      transform: scale(1.2);
     }
   }
 }
