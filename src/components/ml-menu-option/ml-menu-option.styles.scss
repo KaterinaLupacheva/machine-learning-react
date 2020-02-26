@@ -1,0 +1,10 @@
+.ml-menu-option {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .option-name {
+    font-size: 3vh;
+    padding-top: 1vh;
+  }
+}
