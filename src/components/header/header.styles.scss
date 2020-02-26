@@ -1,7 +1,6 @@
 .header {
   height: 15vh;
   width: 100%;
-  // background-color: lightgray;
   background: radial-gradient(80.99% 100% at 50% 0%, #00ff0a 0%, #36008e 100%),
     radial-gradient(50% 123.47% at 50% 50%, #efe7c8 0%, #36008e 100%),
     linear-gradient(301.28deg, #ff006b 0%, #48dd9e 100%),
@@ -17,10 +16,20 @@
   .logo-container {
     height: 80%;
     padding-left: 1vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 
     img {
       max-width: 100%;
       max-height: 100%;
+    }
+
+    .logo-title {
+      color: darkblue;
+      font-size: 8vh;
+      font-weight: bolder;
+      padding-left: 1vw;
     }
   }
 
